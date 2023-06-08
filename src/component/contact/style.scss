@@ -1,0 +1,27 @@
+.Contact_ {
+  display: flex;
+  justify-content: center;
+
+  ul {
+    display: flex;
+
+    li {
+      display: flex;
+      list-style: none;
+      padding: 1em;
+
+      svg {
+        margin-inline: 0.25em;
+      }
+
+      a {
+        color: white;
+        transition: 250ms ease;
+
+        &:hover {
+          color: gray;
+        }
+      }
+    }
+  }
+}

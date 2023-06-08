@@ -1,0 +1,13 @@
+.Education_ {
+  margin: 2em auto;
+
+  p {
+    margin-block: 0.25em;
+  }
+
+  ul {
+    .Education_item {
+      margin: 1em auto 1em 2em;
+    }
+  }
+}
